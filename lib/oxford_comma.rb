@@ -11,7 +11,7 @@ def oxford_comma(array)
     array.length == 3
     array[-1] = "and #{array.last}"
         new_string = array.join(", ")
-        binding.pry
+        #binding.pry
   else if
     array.length > 3
     array[-1] = "and #{array.last}"
