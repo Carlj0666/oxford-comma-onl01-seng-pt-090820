@@ -9,8 +9,8 @@ def oxford_comma(array)
     
   else if
     array.length == 3
-    new_string (array[-1] = "and {array[-1]}")
-        array.join(", ")
+    array[-1] = "and {array[-1]}"
+        new_string = array.join(", ")
         binding.pry
   else if
     array.length > 3
